@@ -450,8 +450,8 @@ def manage_github_email_json(params: Dict) -> str:
         import requests
         import base64
         # Configuration
-        owner = os.getenv("Dipshikha23f2")  # replace with your GitHub username
-        repo = os.getenv("TDS-Project-2 ")
+        owner = os.getenv("harrypandey829")  # replace with your GitHub username
+        repo = os.getenv("Tds_project2")
         path = 'email.json'
         branch = 'main'
         token = os.getenv("Github_token")
